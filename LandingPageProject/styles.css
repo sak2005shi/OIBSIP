@@ -1,0 +1,243 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #66bb6a;
+}
+
+/* Hero Section with Background Image for Home Page */
+.hero-home {
+    height: 100vh;
+    background-image: url('Vpn.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-top: 100px;  /* Account for fixed header */
+}
+
+.hero-home h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-home p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    background-color: #66bb6a;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #43a047;
+}
+
+/* Features Section */
+.features {
+    background-color: #333;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+}
+
+.feature-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #444;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact label {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.contact input,
+.contact textarea {
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.contact button {
+    background-color: #66bb6a;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #43a047;
+}
+
+/* Pricing Section */
+.hero-pricing {
+    background-color: #333;
+    padding: 80px 0;  /* Added padding to ensure it's not hidden behind fixed header */
+    text-align: center;
+}
+
+.hero-pricing h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #66bb6a;
+}
+
+.hero-pricing p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.pricing-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.pricing-card h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.8rem;
+    color: #66bb6a;
+    margin-bottom: 20px;
+}
+
+.pricing-card ul {
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.pricing-card ul li {
+    margin: 10px 0;
+}
+
+.pricing-card .cta-button {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #66bb6a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.pricing-card .cta-button:hover {
+    background-color: #43a047;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+}
