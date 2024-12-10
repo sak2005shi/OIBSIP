@@ -1,0 +1,87 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling with background image */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('image.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for content */
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for better readability */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Title styling */
+h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Input and button styling */
+.input-group, .unit-selection {
+    margin-bottom: 15px;
+}
+
+/* Input field */
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Dropdown menu */
+select {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Convert button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #66bb6a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4caf50;
+}
+
+/* Result display */
+#result {
+    margin-top: 20px;
+}
+
+#convertedTemperature {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
